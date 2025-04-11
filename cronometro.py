@@ -6,7 +6,7 @@ segundos = 0
 
 while True:
 
-    print(f"{hora:02}:{minutos:02}:{segundos:02}")
+    print(f"\r{hora:02}:{minutos:02}:{segundos:02}", end="")
     segundos+=1
     time.sleep(1)
 
